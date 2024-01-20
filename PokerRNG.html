@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probability Button Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="description">
+        <h2>Poker Strategy Randomizer</h2>
+        Looking to randomize your online poker decisions? Use this tool to assist in implementing a mixed strategy. Here's how:
+        <ol>
+            <li><strong>Choose Your Strategy:</strong> Suppose you decide to employ a mixed strategy, like betting 70% of the time and checking 30%.</li>
+            <li><strong>Select the Appropriate Button:</strong> Click on the button that corresponds to your primary action's probability (in this case, 70% for betting).</li>
+            <li><strong>View the Decision:</strong> The display will indicate "YES" (meaning take the primary action, e.g., bet) or "NO" (opt for the alternative, e.g., check).</li>
+        </ol>
+        Using this randomizer, you can ensure you're sticking to your strategy percentages and keeping your gameplay unpredictable!
+    </div>
+    <div class="buttons-container">
+        <button onclick="showText(10)">10%</button>
+        <button onclick="showText(20)">20%</button>
+        <button onclick="showText(30)">30%</button>
+        <button onclick="showText(40)">40%</button>
+        <button onclick="showText(50)">50%</button>
+        <button onclick="showText(60)">60%</button>
+        <button onclick="showText(70)">70%</button>
+        <button onclick="showText(80)">80%</button>
+        <button onclick="showText(90)">90%</button>
+    </div>
+    <div class="text-box" id="textBox"></div>
+    <script src="script.js"></script>
+</body>
+</html>
